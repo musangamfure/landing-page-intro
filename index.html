@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>intro-js</title>
   </head>
   <body>
@@ -12,18 +12,21 @@
       <a href="#">Avaro</a>
     </div>
 
+    <div class="menu__toggle closed">
+      <div class="menu__toggle__icon">
+        <div class="hamburger">
+          <div class="menu__bar" data-position="top"></div>
+          <div class="menu__bar" data-position="bottom"></div>
+        </div>
+      </div>
+      <div class="menu__copy">
+        <p>Menu</p>
+      </div>
+    </div>
+
     <div class="menu">
       <div class="col col__1">
-        <div class="menu__toggle menu__toggle-closed">
-          <div class="hamburger">
-            <div class="menu__bar" data-position="top"></div>
-            <div class="menu__bar" data-position="bottom"></div>
-          </div>
-        </div>
-
-        <div class="menu__copy">
-          <p>Menu</p>
-        </div>
+        <div class="menu__logo"><a href="#">Avaro</a></div>
 
         <div class="links">
           <div class="link"><a href="#">Projects</a></div>
@@ -51,11 +54,10 @@
             <p>8C2K5@example.com</p>
           </div>
           <div class="sub__col">
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-
+            <p class="social">LinkedIn</p>
+            <p class="social">Instagram</p>
+            <p class="social">Facebook</p>
+            <p class="social">Twitter</p>
             <br />
             <p>01 62 123 45 67</p>
           </div>
